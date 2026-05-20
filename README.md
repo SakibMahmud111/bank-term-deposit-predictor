@@ -68,6 +68,8 @@ The performance of the classification models was thoroughly validated across cri
 2. **The Naive Bayes Recall Trade-off:** Naive Bayes displayed near perfect Recall (~1.0) but suffered from critically low Precision and Accuracy (~20%) due to an aggressive over-prediction of the positive class, providing a clear case study on managing class-imbalance anomalies.
 3. **The 'Duration' Caveat:** Feature correlation reviews highlight that call `duration` is an exceptionally strong predictive weight. However, because its value is only finalized *after* a campaign call completes, its influence must be carefully controlled in live, real-time predictive deployments to prevent optimistic telemetry distortion.
 
+
+[📖 Read the Full Technical Report](./project-report.pdf)
 ---
 
 ## 🚀 4. Getting Started & Implementation
