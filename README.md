@@ -62,13 +62,10 @@ The performance of the classification models was thoroughly validated across cri
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Neural Network (MLP)** | **High** | High | High | Balanced | **Top Tier** |
-| **K-Nearest Neighbors (KNN)** | High | High | Moderate | Balanced | High |
-| **Support Vector Machine (SVM)** | Robust | Robust | Robust | Robust | Robust |
-| **Decision Tree** | High | Moderate | Moderate | Moderate | Moderate |
-| **Random Forest** | High | High | Moderate | Balanced | High |
-| **Logistic Regression** | Baseline | Baseline | Baseline | Baseline | Baseline |
-| **Naive Bayes** | ~20% | Low | **~1.00** | Low | Low |
+| **Logistic Regression** | 0.8150 | 0.3355 | 0.6552 | 0.4438 | **0.7955** |
+| **Naive Bayes** | 0.1942 | 0.1197 | **0.9688** | 0.2131 | 0.7710 |
+| **Neural Network (MLP)** | 0.8952 | 0.5708 | 0.2823 | 0.3778 | 0.7559 |
+| **K-Nearest Neighbors (KNN)** | **0.8965** | **0.5831** | 0.2834 | **0.3814** | 0.7258 |
 
 ### 🛠️ Strategic Engineering Takeaways
 1. **Non-Linear Dominance:** Non-linear structural frameworks (Neural Networks and KNN) significantly outperformed linear baselines, successfully identifying complex interplay paths across the 21 unique dimensional attributes.
