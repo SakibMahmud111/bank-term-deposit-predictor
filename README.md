@@ -21,6 +21,13 @@ By analyzing comprehensive institutional and macroeconomic features, the project
 * **Data Visualization:** Seaborn, Matplotlib
 * **Machine Learning Pipelines:** Scikit-Learn (Supervised Classification algorithms, Preprocessing modules, and Evaluation Metrics)
 
+
+### 📊 Dataset Source
+The data used in this project is the **Bank Marketing Dataset**. Due to GitHub file size recommendations and to keep the repository clean, the raw data file is hosted externally.
+
+* 📥 **Download Link:** You can access and download the raw dataset here: [Google Drive Dataset Link](https://drive.google.com/file/d/1Kw3bRgOach2sEbAAtBXeZfIoUYzsJ2TJ/view?usp=sharing)
+* ⚙️ **Setup Instruction:** Download the `Bank Marketing.csv` file from the link above and place it inside your local project directory (or create a `Data/` folder) before executing the Jupyter Notebook.
+  
 ---
 
 ## 💡 2. Problem & Value Proposition
